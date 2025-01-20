@@ -204,6 +204,7 @@ function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
 	local Tabs={}
 
 	local ScreenGui = Instance.new("ScreenGui")
+	local Stroke_my_dick = Instance.new("UIStroke")
 	local Frame = Instance.new("Frame")
 	local UICorner = Instance.new("UICorner")
 	local Frame_2 = Instance.new("Frame")
@@ -396,6 +397,11 @@ function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
 	TweenService:Create(Frame,TweenInfo.new(1,Enum.EasingStyle.Quint),{Size=ooldsize}):Play()
 
 	UICorner.Parent = Frame
+
+        Stroke_my_dick.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+        Stroke_my_dick.Color = Color3.fromRGB(255, 255, 255)
+        Stroke_my_dick.Thickness = 3
+        Stroke_my_dick.Parent = Frame
 
 	Frame_2.Parent = Frame
 	Frame_2.BackgroundColor3 = NEVERLOSE.Themes.BlackColor
