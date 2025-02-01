@@ -1224,7 +1224,7 @@ function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
 				ValueText.TextWrapped = true
 
 				local function UpdateText()
-					local size = TextService:GetTextSize(ValueText.Text,ValueText.TextSize,ValueText.Font,Vector2.new(math.huge,math.huge))
+					local size = TextService:GetTextSize(ValueText.Text,ValueText.TextSize,Enum.Font.SourceSansSemibold,Vector2.new(math.huge,math.huge))
 
 					TweenService:Create(BrindText,TweenInfo.new(0.2),{Size = UDim2.new(0, size.X + 1, 0.550000012, 0)}):Play()
 				end
