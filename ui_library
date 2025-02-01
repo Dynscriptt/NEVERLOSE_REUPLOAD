@@ -2253,7 +2253,7 @@ function NEVERLOSE:Notification()
 		HeadTitle.Position = UDim2.new(0.130612239, 0, 0.0750002638, 0)
 		HeadTitle.Size = UDim2.new(0.738775492, 0, 0.369384199, 0)
 		HeadTitle.ZIndex = 7
-		HeadTitle.Font = Enum.Font.SourceSansSemibold
+		HeadTitle.FontFace = Font.fromId(12187365364, Enum.FontWeight.Bold, Enum.FontStyle.Normal)
 		HeadTitle.Text = Head or "Head"
 		HeadTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
 		HeadTitle.TextScaled = true
