@@ -219,7 +219,7 @@ function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
 			TextLabel.Position = UDim2.new(0.243000001, 0, 0.0250000004, 0)
 			TextLabel.Size = UDim2.new(0.666889787, 0, 0.0627818182, 0)
 			TextLabel.ZIndex = 5
-			TextLabel.FontFace = Font.fromId(12187365364, Enum.FontWeight.Medium, Enum.FontStyle.Normal)
+			TextLabel.FontFace = Font.fromId(12187365364, Enum.FontWeight.SemiBold, Enum.FontStyle.Normal)
 			TextLabel.Text = Text or" "
 			TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 			TextLabel.TextScaled = true
@@ -421,7 +421,7 @@ function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
 	HeadName.Position = UDim2.new(0.0100000342, 0, 0.010000146, 0)
 	HeadName.Size = UDim2.new(0.205458686, 0, 0.133462012, 0)
 	HeadName.ZIndex = 4
-	HeadName.FontFace = Font.fromId(12187365364, Enum.FontWeight.Heavy, Enum.FontStyle.Normal)
+	HeadName.FontFace = Font.fromId(12187365364, Enum.FontWeight.Bold, Enum.FontStyle.Normal)
 	HeadName.Text = NameScriptHub or "NEVERLOSE"
 	HeadName.TextColor3 = Color3.fromRGB(255, 255, 255)
 	HeadName.TextScaled = true
@@ -528,7 +528,7 @@ function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
 		TabTitle.BorderSizePixel = 0
 		TabTitle.Size = UDim2.new(0.949999988, 0, 0.5, 0)
 		TabTitle.ZIndex = 5
-		TabTitle.FontFace = Font.fromId(12187365364, Enum.FontWeight.Medium, Enum.FontStyle.Normal)
+		TabTitle.FontFace = Font.fromId(12187365364, Enum.FontWeight.SemiBold, Enum.FontStyle.Normal)
 		TabTitle.Text = Label or "Home"
 		TabTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
 		TabTitle.TextScaled = true
@@ -616,7 +616,7 @@ function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
 		Label.Position = UDim2.new(0.640507042, 0, 0.500000238, 0)
 		Label.Size = UDim2.new(0.718986034, 0, 0.600000024, 0)
 		Label.ZIndex = 5
-		Label.FontFace = Font.fromId(12187365364, Enum.FontWeight.Medium, Enum.FontStyle.Normal)
+		Label.FontFace = Font.fromId(12187365364, Enum.FontWeight.SemiBold, Enum.FontStyle.Normal)
 		Label.Text = TabNameString or "Index.json"
 		Label.TextColor3 = Color3.fromRGB(255, 255, 255)
 		Label.TextScaled = true
@@ -775,7 +775,7 @@ function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
 			Header.Position = UDim2.new(0.5, 0, 0.100000001, 0)
 			Header.Size = UDim2.new(0.949999988, 0, 0, 15)
 			Header.ZIndex = 5
-			Header.FontFace = Font.fromId(12187365364, Enum.FontWeight.Medium, Enum.FontStyle.Normal)
+			Header.FontFace = Font.fromId(12187365364, Enum.FontWeight.SemiBold, Enum.FontStyle.Normal)
 			Header.Text = SectionName or "Section"
 			Header.TextColor3 = Color3.fromRGB(255, 255, 255)
 			Header.TextScaled = true
@@ -897,7 +897,7 @@ function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
 				LabelText.Position = UDim2.new(0.5, 0, 0.5, 0)
 				LabelText.Size = UDim2.new(0.899999976, 0, 0.75, 0)
 				LabelText.ZIndex = 6
-				LabelText.FontFace = Font.fromId(12187365364, Enum.FontWeight.Medium, Enum.FontStyle.Normal)
+				LabelText.FontFace = Font.fromId(12187365364, Enum.FontWeight.SemiBold, Enum.FontStyle.Normal)
 				LabelText.Text = ButtonName or"Kill all"
 				LabelText.TextColor3 = Color3.fromRGB(255, 255, 255)
 				LabelText.TextScaled = true
@@ -966,7 +966,7 @@ function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
 				LabelText.Position = UDim2.new(0.5, 0, 0.5, 0)
 				LabelText.Size = UDim2.new(1, 0, 0.649999976, 0)
 				LabelText.ZIndex = 6
-				LabelText.FontFace = Font.fromId(12187365364, Enum.FontWeight.Medium, Enum.FontStyle.Normal)
+				LabelText.FontFace = Font.fromId(12187365364, Enum.FontWeight.SemiBold, Enum.FontStyle.Normal)
 				LabelText.Text = LabelNameString or"Label"
 				LabelText.TextColor3 = Color3.fromRGB(255, 255, 255)
 				LabelText.TextScaled = true
@@ -1046,7 +1046,7 @@ function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
 				LabelText.Position = UDim2.new(0.38587454, 0, 0.499999583, 0)
 				LabelText.Size = UDim2.new(0.772000015, 0, 0.75, 0)
 				LabelText.ZIndex = 6
-				LabelText.FontFace = Font.fromId(12187365364, Enum.FontWeight.Medium, Enum.FontStyle.Normal)
+				LabelText.FontFace = Font.fromId(12187365364, Enum.FontWeight.SemiBold, Enum.FontStyle.Normal)
 				LabelText.Text = ToggleName or "Label-Test"
 				LabelText.TextColor3 = Color3.fromRGB(255, 255, 255)
 				LabelText.TextScaled = true
@@ -1181,7 +1181,7 @@ function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
 				LabelText.Position = UDim2.new(0.296665907, 0, 0.499999106, 0)
 				LabelText.Size = UDim2.new(0.593582749, 0, 0.75, 0)
 				LabelText.ZIndex = 6
-				LabelText.FontFace = Font.fromId(12187365364, Enum.FontWeight.Medium, Enum.FontStyle.Normal)
+				LabelText.FontFace = Font.fromId(12187365364, Enum.FontWeight.SemiBold, Enum.FontStyle.Normal)
 				LabelText.Text = KeybindNameString or ''
 				LabelText.TextColor3 = Color3.fromRGB(255, 255, 255)
 				LabelText.TextScaled = true
@@ -1218,7 +1218,7 @@ function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
 				ValueText.Position = UDim2.new(0.5, 0, 0.5, 0)
 				ValueText.Size = UDim2.new(0.980000019, 0, 0.998000026, 0)
 				ValueText.ZIndex = 6
-				ValueText.FontFace = Font.fromId(12187365364, Enum.FontWeight.Medium, Enum.FontStyle.Normal)
+				ValueText.FontFace = Font.fromId(12187365364, Enum.FontWeight.SemiBold, Enum.FontStyle.Normal)
 				ValueText.Text = gt(Default)
 				ValueText.TextColor3 = Color3.fromRGB(255, 255, 255)
 				ValueText.TextScaled = true
@@ -1226,7 +1226,7 @@ function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
 				ValueText.TextWrapped = true
 
 				local function UpdateText()
-					local size = TextService:GetTextSize(ValueText.Text,ValueText.TextSize,Enum.Font.SourceSansSemibold,Vector2.new(math.huge,math.huge))
+					local size = TextService:GetTextSize(ValueText.Text,ValueText.TextSize,Enum.Font.SourceSansBold,Vector2.new(math.huge,math.huge))
 
 					TweenService:Create(BrindText,TweenInfo.new(0.2),{Size = UDim2.new(0, size.X + 1, 0.550000012, 0)}):Play()
 				end
@@ -1320,7 +1320,7 @@ function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
 				LabelText.Position = UDim2.new(0.296665907, 0, 0.499999106, 0)
 				LabelText.Size = UDim2.new(0.593582749, 0, 0.75, 0)
 				LabelText.ZIndex = 6
-				LabelText.FontFace = Font.fromId(12187365364, Enum.FontWeight.Medium, Enum.FontStyle.Normal)
+				LabelText.FontFace = Font.fromId(12187365364, Enum.FontWeight.SemiBold, Enum.FontStyle.Normal)
 				LabelText.Text = KeybindNameString or ''
 				LabelText.TextColor3 = Color3.fromRGB(255, 255, 255)
 				LabelText.TextScaled = true
@@ -1357,7 +1357,7 @@ function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
 				ValueText.Position = UDim2.new(0.5, 0, 0.5, 0)
 				ValueText.Size = UDim2.new(0.980000019, 0, 0.998000026, 0)
 				ValueText.ZIndex = 6
-				ValueText.FontFace = Font.fromId(12187365364, Enum.FontWeight.Medium, Enum.FontStyle.Normal)
+				ValueText.FontFace = Font.fromId(12187365364, Enum.FontWeight.SemiBold, Enum.FontStyle.Normal)
 				ValueText.Text = ""
 				ValueText.TextColor3 = Color3.fromRGB(255, 255, 255)
 				ValueText.TextScaled = true
@@ -1420,7 +1420,7 @@ function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
 				LabelText.Position = UDim2.new(0.238462642, 0, 0.499999374, 0)
 				LabelText.Size = UDim2.new(0.477176398, 0, 0.75, 0)
 				LabelText.ZIndex = 6
-				LabelText.FontFace = Font.fromId(12187365364, Enum.FontWeight.Medium, Enum.FontStyle.Normal)
+				LabelText.FontFace = Font.fromId(12187365364, Enum.FontWeight.SemiBold, Enum.FontStyle.Normal)
 				LabelText.Text = SliderNameString or "Control"
 				LabelText.TextColor3 = Color3.fromRGB(255, 255, 255)
 				LabelText.TextScaled = true
@@ -1458,7 +1458,7 @@ function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
 				ValueText.Position = UDim2.new(0.5, 0, 0.5, 0)
 				ValueText.Size = UDim2.new(0.99000001, 0, 0.99000001, 0)
 				ValueText.ZIndex = 6
-				ValueText.FontFace = Font.fromId(12187365364, Enum.FontWeight.Medium, Enum.FontStyle.Normal)
+				ValueText.FontFace = Font.fromId(12187365364, Enum.FontWeight.SemiBold, Enum.FontStyle.Normal)
 				ValueText.Text = tostring(Default)
 				ValueText.TextColor3 = Color3.fromRGB(255, 255, 255)
 				ValueText.TextScaled = true
@@ -1616,7 +1616,7 @@ function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
 				LabelText.Position = UDim2.new(0.296666116, 0, 0.499999374, 0)
 				LabelText.Size = UDim2.new(0.593582511, 0, 0.75, 0)
 				LabelText.ZIndex = 6
-				LabelText.FontFace = Font.fromId(12187365364, Enum.FontWeight.Medium, Enum.FontStyle.Normal)
+				LabelText.FontFace = Font.fromId(12187365364, Enum.FontWeight.SemiBold, Enum.FontStyle.Normal)
 				LabelText.Text = DropdownName or "Label-Test"
 				LabelText.TextColor3 = Color3.fromRGB(255, 255, 255)
 				LabelText.TextScaled = true
@@ -1654,7 +1654,7 @@ function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
 				ValueText.Position = UDim2.new(0.358571023, 0, 0.500001013, 0)
 				ValueText.Size = UDim2.new(0.697142839, 0, 0.998000145, 0)
 				ValueText.ZIndex = 6
-				ValueText.FontFace = Font.fromId(12187365364, Enum.FontWeight.Medium, Enum.FontStyle.Normal)
+				ValueText.FontFace = Font.fromId(12187365364, Enum.FontWeight.SemiBold, Enum.FontStyle.Normal)
 				ValueText.Text = tostring(Default)
 				ValueText.TextColor3 = Color3.fromRGB(255, 255, 255)
 				ValueText.TextScaled = true
@@ -1673,7 +1673,7 @@ function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
 				Icon.Size = UDim2.new(0.949999988, 0, 0.949999988, 0)
 				Icon.SizeConstraint = Enum.SizeConstraint.RelativeYY
 				Icon.ZIndex = 6
-				Icon.FontFace = Font.fromId(12187365364, Enum.FontWeight.Medium, Enum.FontStyle.Normal)
+				Icon.FontFace = Font.fromId(12187365364, Enum.FontWeight.SemiBold, Enum.FontStyle.Normal)
 				Icon.Text = "<"
 				Icon.TextColor3 = Color3.fromRGB(255, 255, 255)
 				Icon.TextScaled = true
@@ -1806,7 +1806,7 @@ function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
 					Dropdown.BorderSizePixel = 0
 					Dropdown.Size = UDim2.new(0.99000001, 0, 0.5, 0)
 					Dropdown.ZIndex = 1000
-					Dropdown.FontFace = Font.fromId(12187365364, Enum.FontWeight.Medium, Enum.FontStyle.Normal)
+					Dropdown.FontFace = Font.fromId(12187365364, Enum.FontWeight.SemiBold, Enum.FontStyle.Normal)
 					Dropdown.Text = "List"
 					Dropdown.TextColor3 = Color3.fromRGB(255, 255, 255)
 					Dropdown.TextScaled = true
@@ -2272,7 +2272,7 @@ function NEVERLOSE:Notification()
 		BodyTitle.Position = UDim2.new(0.130612239, 0, 0.444384605, 0)
 		BodyTitle.Size = UDim2.new(0.738775492, 0, 0.47554332, 0)
 		BodyTitle.ZIndex = 7
-		BodyTitle.FontFace = Font.fromId(12187365364, Enum.FontWeight.Medium, Enum.FontStyle.Normal)
+		BodyTitle.FontFace = Font.fromId(12187365364, Enum.FontWeight.SemiBold, Enum.FontStyle.Normal)
 		BodyTitle.Text = Body or "Body"
 		BodyTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
 		BodyTitle.TextScaled = true
