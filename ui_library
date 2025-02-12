@@ -134,7 +134,7 @@ function NEVERLOSE:Theme(name)
 		NEVERLOSE.Themes.MainColorDrop = Color3.fromRGB(3, 6, 25)
 		NEVERLOSE.Themes.SectionColor = Color3.fromRGB(0, 17, 35)
 		NEVERLOSE.Themes.StrokeColor = Color3.fromRGB(3, 35, 50)
-		NEVERLOSE.Themes.ButtonBlackgroundColor = Color3.fromRGB(2, 5, 22)
+		NEVERLOSE.Themes.ButtonBlackgroundColor = Color3.fromRGB(20, 20, 20)
 	end
 
 	if name == "orange" then
@@ -158,7 +158,7 @@ function NEVERLOSE:Theme(name)
 		NEVERLOSE.Themes.MainColor = Color3.fromRGB(255, 255, 255)
 		NEVERLOSE.Themes.MainColorDrop = Color3.fromRGB(65, 54, 31)
 		NEVERLOSE.Themes.SectionColor = Color3.fromRGB(26, 26, 26)
-		NEVERLOSE.Themes.StrokeColor = Color3.fromRGB(50, 50, 50)
+		NEVERLOSE.Themes.StrokeColor = Color3.fromRGB(30, 30, 30)
 		NEVERLOSE.Themes.ButtonBlackgroundColor = Color3.fromRGB(26, 26, 26)
 	end
 
