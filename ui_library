@@ -1412,12 +1412,12 @@ function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
 
 				LabelText.Name = "LabelText"
 				LabelText.Parent = Slider
-				LabelText.AnchorPoint = Vector2.new(0.5, 0.5)
+				LabelText.AnchorPoint = Vector2.new(0, 0)
 				LabelText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 				LabelText.BackgroundTransparency = 1.000
 				LabelText.BorderColor3 = Color3.fromRGB(0, 0, 0)
 				LabelText.BorderSizePixel = 0
-				LabelText.Position = UDim2.new(0.238462642, 0, 0.499999374, 0)
+				LabelText.Position = UDim2.new(0, 0, 0.100000001, 0)
 				LabelText.Size = UDim2.new(0.39, 0,0.75, 0)
 				LabelText.ZIndex = 6
 				LabelText.FontFace = Font.fromId(12187365364, Enum.FontWeight.SemiBold, Enum.FontStyle.Normal)
