@@ -1,7 +1,7 @@
 --THIS UI LIBRARY WAS NOT MADE BY ME
 --THIS WAS MADE BY 3345-c-a-t-s-u-s
 
---LEL2
+--OH NO VERY VERY VERY SKIBIDI
 
 local LocalPlayer = game:GetService('Players').LocalPlayer;
 local Mouse = LocalPlayer:GetMouse();
@@ -138,15 +138,15 @@ function NEVERLOSE:Theme(name)
 	end
 
 	if name == "orange" then
-	    NEVERLOSE.Themes.BlackgroundColor = Color3.fromRGB(29, 29, 29)  -- Dark background with slight warmth
-	    NEVERLOSE.Themes.BlackColor = Color3.fromRGB(45, 45, 45)  -- Darker accent color
-	    NEVERLOSE.Themes.HeaderColor = Color3.fromRGB(53, 53, 53)  -- Slightly lighter dark tone for header
-	    NEVERLOSE.Themes.TraceColor = Color3.fromRGB(28, 37, 47)  -- Deep dark accent
-	    NEVERLOSE.Themes.MainColor = Color3.fromRGB(255, 120, 0)  -- Bright orange for the main color
-	    NEVERLOSE.Themes.MainColorDrop = Color3.fromRGB(200, 90, 0)  -- Slightly darker orange for contrast
-	    NEVERLOSE.Themes.SectionColor = Color3.fromRGB(47, 47, 47)  -- Darker section background
-	    NEVERLOSE.Themes.StrokeColor = Color3.fromRGB(63, 48, 36)  -- Dark brownish stroke to complement orange theme
-	    NEVERLOSE.Themes.ButtonBlackgroundColor = Color3.fromRGB(44, 44, 44)  -- Dark button background
+		NEVERLOSE.Themes.BlackgroundColor = Color3.fromRGB(29, 29, 29)  -- Dark background with slight warmth
+		NEVERLOSE.Themes.BlackColor = Color3.fromRGB(45, 45, 45)  -- Darker accent color
+		NEVERLOSE.Themes.HeaderColor = Color3.fromRGB(53, 53, 53)  -- Slightly lighter dark tone for header
+		NEVERLOSE.Themes.TraceColor = Color3.fromRGB(28, 37, 47)  -- Deep dark accent
+		NEVERLOSE.Themes.MainColor = Color3.fromRGB(255, 120, 0)  -- Bright orange for the main color
+		NEVERLOSE.Themes.MainColorDrop = Color3.fromRGB(200, 90, 0)  -- Slightly darker orange for contrast
+		NEVERLOSE.Themes.SectionColor = Color3.fromRGB(47, 47, 47)  -- Darker section background
+		NEVERLOSE.Themes.StrokeColor = Color3.fromRGB(63, 48, 36)  -- Dark brownish stroke to complement orange theme
+		NEVERLOSE.Themes.ButtonBlackgroundColor = Color3.fromRGB(44, 44, 44)  -- Dark button background
 	end
 
 
@@ -178,7 +178,7 @@ end
 function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
 	local WindowFunctinos={}
 	local ToggleUI=false
-	local ooldsize=UICustomSize or UDim2.new(0.33, 0, 0.5, 0)
+	local ooldsize=UICustomSize or UDim2.new(0.315, 0, 0.5, 0)
 	local Tabs={}
 
 	local ScreenGui = Instance.new("ScreenGui")
@@ -290,7 +290,7 @@ function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
 		ImageButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		ImageButton.BorderSizePixel = 0
 		ImageButton.Position = UDim2.new(0.908723712, 0, 0.0239103697, 0)
-		ImageButton.Size = UDim2.new(0.0900000036, 0, 0.0900000036, 0)
+		ImageButton.Size = UDim2.new(0.0500000036, 0, 0.0500000036, 0)
 		ImageButton.SizeConstraint = Enum.SizeConstraint.RelativeYY
 		ImageButton.ZIndex = 4
 		ImageButton.Image = "rbxassetid://10002398990"
@@ -895,7 +895,7 @@ function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
 				LabelText.BorderColor3 = Color3.fromRGB(0, 0, 0)
 				LabelText.BorderSizePixel = 0
 				LabelText.Position = UDim2.new(0.5, 0, 0.5, 0)
-				LabelText.Size = UDim2.new(0.405, 0, 0.715, 0)
+				LabelText.Size = UDim2.new(0.899999976, 0, 0.75, 0)
 				LabelText.ZIndex = 6
 				LabelText.FontFace = Font.fromId(12187365364, Enum.FontWeight.SemiBold, Enum.FontStyle.Normal)
 				LabelText.Text = ButtonName or"Kill all"
@@ -964,7 +964,7 @@ function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
 				LabelText.BorderColor3 = Color3.fromRGB(0, 0, 0)
 				LabelText.BorderSizePixel = 0
 				LabelText.Position = UDim2.new(0.5, 0, 0.5, 0)
-				LabelText.Size = UDim2.new(0.405, 0, 0.715, 0)
+				LabelText.Size = UDim2.new(1, 0, 0.649999976, 0)
 				LabelText.ZIndex = 6
 				LabelText.FontFace = Font.fromId(12187365364, Enum.FontWeight.SemiBold, Enum.FontStyle.Normal)
 				LabelText.Text = LabelNameString or"Label"
@@ -1044,7 +1044,7 @@ function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
 				LabelText.BorderColor3 = Color3.fromRGB(0, 0, 0)
 				LabelText.BorderSizePixel = 0
 				LabelText.Position = UDim2.new(0.38587454, 0, 0.499999583, 0)
-				LabelText.Size = UDim2.new(0.405, 0, 0.715, 0)
+				LabelText.Size = UDim2.new(0.772000015, 0, 0.75, 0)
 				LabelText.ZIndex = 6
 				LabelText.FontFace = Font.fromId(12187365364, Enum.FontWeight.SemiBold, Enum.FontStyle.Normal)
 				LabelText.Text = ToggleName or "Label-Test"
@@ -1179,7 +1179,7 @@ function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
 				LabelText.BorderColor3 = Color3.fromRGB(0, 0, 0)
 				LabelText.BorderSizePixel = 0
 				LabelText.Position = UDim2.new(0.296665907, 0, 0.499999106, 0)
-				LabelText.Size = UDim2.new(0.405, 0, 0.715, 0)
+				LabelText.Size = UDim2.new(0.593582749, 0, 0.75, 0)
 				LabelText.ZIndex = 6
 				LabelText.FontFace = Font.fromId(12187365364, Enum.FontWeight.SemiBold, Enum.FontStyle.Normal)
 				LabelText.Text = KeybindNameString or ''
@@ -1281,8 +1281,8 @@ function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
 				return KeybindFunctions
 			end
 
-            function sectionfunc:addTextbox(KeybindNameString,Default,callback)
-                local callback = callback or function() end
+			function sectionfunc:addTextbox(KeybindNameString,Default,callback)
+				local callback = callback or function() end
 
 				local Keybind = Instance.new("Frame")
 				local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
@@ -1318,7 +1318,7 @@ function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
 				LabelText.BorderColor3 = Color3.fromRGB(0, 0, 0)
 				LabelText.BorderSizePixel = 0
 				LabelText.Position = UDim2.new(0.296665907, 0, 0.499999106, 0)
-				LabelText.Size = UDim2.new(0.405, 0, 0.715, 0)
+				LabelText.Size = UDim2.new(0.593582749, 0, 0.75, 0)
 				LabelText.ZIndex = 6
 				LabelText.FontFace = Font.fromId(12187365364, Enum.FontWeight.SemiBold, Enum.FontStyle.Normal)
 				LabelText.Text = KeybindNameString or ''
@@ -1364,9 +1364,9 @@ function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
 				ValueText.TextSize = 14.000
 				ValueText.TextWrapped = true
 
-                ValueText.FocusLost:Connect(function()
-                    callback(ValueText.Text)
-                end)
+				ValueText.FocusLost:Connect(function()
+					callback(ValueText.Text)
+				end)
 			end
 
 			function sectionfunc:AddSlider(SliderNameString,Min,Max,Default,callback)
@@ -1614,7 +1614,7 @@ function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
 				LabelText.BorderColor3 = Color3.fromRGB(0, 0, 0)
 				LabelText.BorderSizePixel = 0
 				LabelText.Position = UDim2.new(0.296666116, 0, 0.499999374, 0)
-				LabelText.Size = UDim2.new(0.405, 0, 0.715, 0)
+				LabelText.Size = UDim2.new(0.593582511, 0, 0.75, 0)
 				LabelText.ZIndex = 6
 				LabelText.FontFace = Font.fromId(12187365364, Enum.FontWeight.SemiBold, Enum.FontStyle.Normal)
 				LabelText.Text = DropdownName or "Label-Test"
