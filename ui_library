@@ -1,7 +1,7 @@
 --THIS UI LIBRARY WAS NOT MADE BY ME
 --THIS WAS MADE BY 3345-c-a-t-s-u-s
 
---OH NO VERY VERY VERY SKIBIDI
+--lel transparency update
 
 local LocalPlayer = game:GetService('Players').LocalPlayer;
 local Mouse = LocalPlayer:GetMouse();
@@ -252,9 +252,9 @@ function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
 
 			TweenService:Create(UserName,TweenInfo.new(0.3),{TextTransparency=0,TextStrokeTransparency=1}):Play()
 			TweenService:Create(UserImage,TweenInfo.new(0.3),{ImageTransparency=0}):Play()
-			TweenService:Create(outlo,TweenInfo.new(0.3),{BackgroundTransparency=0.7}):Play()
-			TweenService:Create(outlo_2,TweenInfo.new(0.3),{BackgroundTransparency=0.7}):Play()
-			TweenService:Create(outlo_3,TweenInfo.new(0.3),{BackgroundTransparency=0.7}):Play()
+			TweenService:Create(outlo,TweenInfo.new(0.3),{BackgroundTransparency=0.2}):Play()
+			TweenService:Create(outlo_2,TweenInfo.new(0.3),{BackgroundTransparency=0.2}):Play()
+			TweenService:Create(outlo_3,TweenInfo.new(0.3),{BackgroundTransparency=0.2}):Play()
 			TweenService:Create(Frame_2,TweenInfo.new(0.3),{BackgroundTransparency=0}):Play()
 			TweenService:Create(Frame_3,TweenInfo.new(0.3),{BackgroundTransparency=0.9}):Play()
 			TweenService:Create(DropShadow,TweenInfo.new(0.3),{ImageTransparency=0.86}):Play()
