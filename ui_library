@@ -773,7 +773,7 @@ function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
 			Header.BorderColor3 = Color3.fromRGB(0, 0, 0)
 			Header.BorderSizePixel = 0
 			Header.Position = UDim2.new(0.5, 0, 0.100000001, 0)
-			Header.Size = UDim2.new(0.949999988, 0, 0, 30)
+			Header.Size = UDim2.new(0.949999988, 0, 0, 20)
 			Header.ZIndex = 5
 			Header.FontFace = Font.fromId(12187365364, Enum.FontWeight.Bold, Enum.FontStyle.Normal)
 			Header.Text = SectionName or "Section"
