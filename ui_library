@@ -1,7 +1,7 @@
 --THIS UI LIBRARY WAS NOT MADE BY ME
 --THIS WAS MADE BY 3345-c-a-t-s-u-s
 
---LEL
+--LEL2
 
 local LocalPlayer = game:GetService('Players').LocalPlayer;
 local Mouse = LocalPlayer:GetMouse();
@@ -895,7 +895,7 @@ function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
 				LabelText.BorderColor3 = Color3.fromRGB(0, 0, 0)
 				LabelText.BorderSizePixel = 0
 				LabelText.Position = UDim2.new(0.5, 0, 0.5, 0)
-				LabelText.Size = UDim2.new(0.899999976, 0, 0.75, 0)
+				LabelText.Size = UDim2.new(0.405, 0, 0.715, 0)
 				LabelText.ZIndex = 6
 				LabelText.FontFace = Font.fromId(12187365364, Enum.FontWeight.SemiBold, Enum.FontStyle.Normal)
 				LabelText.Text = ButtonName or"Kill all"
@@ -964,7 +964,7 @@ function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
 				LabelText.BorderColor3 = Color3.fromRGB(0, 0, 0)
 				LabelText.BorderSizePixel = 0
 				LabelText.Position = UDim2.new(0.5, 0, 0.5, 0)
-				LabelText.Size = UDim2.new(1, 0, 0.649999976, 0)
+				LabelText.Size = UDim2.new(0.405, 0, 0.715, 0)
 				LabelText.ZIndex = 6
 				LabelText.FontFace = Font.fromId(12187365364, Enum.FontWeight.SemiBold, Enum.FontStyle.Normal)
 				LabelText.Text = LabelNameString or"Label"
@@ -1044,7 +1044,7 @@ function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
 				LabelText.BorderColor3 = Color3.fromRGB(0, 0, 0)
 				LabelText.BorderSizePixel = 0
 				LabelText.Position = UDim2.new(0.38587454, 0, 0.499999583, 0)
-				LabelText.Size = UDim2.new(0.772000015, 0, 0.75, 0)
+				LabelText.Size = UDim2.new(0.405, 0, 0.715, 0)
 				LabelText.ZIndex = 6
 				LabelText.FontFace = Font.fromId(12187365364, Enum.FontWeight.SemiBold, Enum.FontStyle.Normal)
 				LabelText.Text = ToggleName or "Label-Test"
@@ -1179,7 +1179,7 @@ function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
 				LabelText.BorderColor3 = Color3.fromRGB(0, 0, 0)
 				LabelText.BorderSizePixel = 0
 				LabelText.Position = UDim2.new(0.296665907, 0, 0.499999106, 0)
-				LabelText.Size = UDim2.new(0.593582749, 0, 0.75, 0)
+				LabelText.Size = UDim2.new(0.405, 0, 0.715, 0)
 				LabelText.ZIndex = 6
 				LabelText.FontFace = Font.fromId(12187365364, Enum.FontWeight.SemiBold, Enum.FontStyle.Normal)
 				LabelText.Text = KeybindNameString or ''
@@ -1318,7 +1318,7 @@ function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
 				LabelText.BorderColor3 = Color3.fromRGB(0, 0, 0)
 				LabelText.BorderSizePixel = 0
 				LabelText.Position = UDim2.new(0.296665907, 0, 0.499999106, 0)
-				LabelText.Size = UDim2.new(0.593582749, 0, 0.75, 0)
+				LabelText.Size = UDim2.new(0.405, 0, 0.715, 0)
 				LabelText.ZIndex = 6
 				LabelText.FontFace = Font.fromId(12187365364, Enum.FontWeight.SemiBold, Enum.FontStyle.Normal)
 				LabelText.Text = KeybindNameString or ''
@@ -1614,7 +1614,7 @@ function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
 				LabelText.BorderColor3 = Color3.fromRGB(0, 0, 0)
 				LabelText.BorderSizePixel = 0
 				LabelText.Position = UDim2.new(0.296666116, 0, 0.499999374, 0)
-				LabelText.Size = UDim2.new(0.593582511, 0, 0.75, 0)
+				LabelText.Size = UDim2.new(0.405, 0, 0.715, 0)
 				LabelText.ZIndex = 6
 				LabelText.FontFace = Font.fromId(12187365364, Enum.FontWeight.SemiBold, Enum.FontStyle.Normal)
 				LabelText.Text = DropdownName or "Label-Test"
