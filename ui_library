@@ -126,12 +126,11 @@ local NEVERLOSE = {
 function NEVERLOSE:Theme(name)
 	name = tostring(name or "original"):lower()
 	if name == "original" then
-		
 		NEVERLOSE.Themes.BlackgroundColor = Color3.fromRGB(1, 17, 33)
 		NEVERLOSE.Themes.BlackColor = Color3.fromRGB(9, 9, 19)
 		NEVERLOSE.Themes.HeaderColor = Color3.fromRGB(7, 7, 17)
-		NEVERLOSE.Themes.TraceColor = Color3.fromRGB(170, 170, 170)
-		NEVERLOSE.Themes.MainColor = Color3.fromRGB(19, 176, 243) -- 105, 144, 189 / 19, 176, 243
+		NEVERLOSE.Themes.TraceColor = Color3.fromRGB(0, 34, 44)
+		NEVERLOSE.Themes.MainColor = Color3.fromRGB(19, 176, 243)
 		NEVERLOSE.Themes.MainColorDrop = Color3.fromRGB(3, 6, 25)
 		NEVERLOSE.Themes.SectionColor = Color3.fromRGB(0, 17, 35)
 		NEVERLOSE.Themes.StrokeColor = Color3.fromRGB(3, 35, 50)
@@ -179,7 +178,7 @@ end
 function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
 	local WindowFunctinos={}
 	local ToggleUI=false
-	local ooldsize=UICustomSize or UDim2.new(0.31, 0, 0.5, 0)
+	local ooldsize=UICustomSize or UDim2.new(0.36, 0, 0.5, 0)
 	local Tabs={}
 
 	local ScreenGui = Instance.new("ScreenGui")
