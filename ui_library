@@ -661,7 +661,7 @@ function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
 		UIListLayout.Parent = Left
 		UIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
 		UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
-		UIListLayout.Padding = UDim.new(0.02, 0)
+		UIListLayout.Padding = UDim.new(0.01, 0)
 
 		Right.Name = "Right"
 		Right.Parent = Tab
@@ -680,7 +680,7 @@ function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
 		UIListLayout_2.Parent = Right
 		UIListLayout_2.HorizontalAlignment = Enum.HorizontalAlignment.Center
 		UIListLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
-		UIListLayout_2.Padding = UDim.new(0.02, 0)
+		UIListLayout_2.Padding = UDim.new(0.01, 0)
 
 		scrolling_connect(Right)
 		scrolling_connect(Left)
